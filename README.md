@@ -1,6 +1,6 @@
 # compiln-browserify
 
-[Browserify](https://github.com/substack/node-browserify) plugin for [compiln](https://github.com/redhotvengeance/compiln)
+[Browserify](https://github.com/substack/node-browserify) plugin for [compiln](https://github.com/redhotvengeance/compiln).
 
 ## How to install
 
