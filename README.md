@@ -45,7 +45,7 @@ compiln.use(compiln_browserify);
 
 compiln-browserify optionally accepts the `debug` option, which will enable debug mode for browserify.
 
-compiln-browserify also allows for integrating browserify plugins. Make sure to install the plugin via npm first, then pass the plugin name and optional arguments in the options (under the key "plugins") when integrating compiln-browserify.
+compiln-browserify also allows for integrating browserify plugins. Make sure to install the plugin via `npm` first, then pass the plugin name and optional arguments in the `options` (under the key `plugins`) when integrating compiln-browserify.
 
 ## Contribute
 
