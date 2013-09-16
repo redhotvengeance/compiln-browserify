@@ -28,13 +28,9 @@ compiln.use(compiln_browserify);
       "destination": <destination>,  
       "options": {  
         "debug": false,  
-        "plugins": [  
+        "transforms": [  
           {  
-            "plugin": "plugin-name",  
-            "arguments": [  
-              "plugin",  
-              "arguments"  
-            ]  
+            "transform": "transform-name"  
           }  
         ]  
       }  
@@ -45,7 +41,7 @@ compiln.use(compiln_browserify);
 
 compiln-browserify optionally accepts the `debug` option, which will enable debug mode for browserify.
 
-compiln-browserify also allows for integrating browserify plugins. Make sure to install the plugin via `npm` first, then pass the plugin name and optional arguments in the `options` (under the key `plugins`) when integrating compiln-browserify.
+compiln-browserify also allows for integrating browserify transforms. Make sure to install the transform via `npm` first, then pass the transform name in the `options` (under the key `transforms `) when integrating compiln-browserify.
 
 ## Contribute
 
