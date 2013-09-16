@@ -3,14 +3,25 @@
   "description": "Compiln plugin to utilize browserify.",
   "version": "0.2.1",
   "author": {
-    "name": "Ian Lollar"
+    "name": "Ian Lollar",
+    "email": "rhv@redhotvengeance.com",
+    "url": "http://redhotvengeance.com"
   },
-  "keywords": ["build", "assets", "compiln", "middleware", "browserify"],
-  "engines" : ["node"],
-  "repository":   {
+  "keywords": [
+    "build",
+    "assets",
+    "compiln",
+    "middleware",
+    "browserify"
+  ],
+  "engines": [
+    "node"
+  ],
+  "repository": {
     "type": "git",
     "url": "git://github.com/redhotvengeance/compiln-browserify.git"
   },
+  "homepage": "https://github.com/redhotvengeance/compiln-browserify",
   "main" : "./lib/compiln-browserify",
   "dependencies": {
     "browserify": "~2.29.1",
