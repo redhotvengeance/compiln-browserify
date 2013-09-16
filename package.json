@@ -14,5 +14,6 @@
   "main" : "./lib/compiln-browserify",
   "dependencies": {
     "browserify": "~2.29.1",
+    "coffeeify": "~0.5.1"
   }
 }
