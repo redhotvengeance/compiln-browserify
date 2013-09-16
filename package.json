@@ -13,6 +13,6 @@
   },
   "main" : "./lib/compiln-browserify",
   "dependencies": {
-    "browserify": "1.13.5"
+    "browserify": "~2.29.1",
   }
 }
